@@ -12,6 +12,6 @@ services:
   backend:
     build: ./server
     ports:
-      - "5000:5000"
+      - "5500:5500"
     volumes:
       - ./server:/app
